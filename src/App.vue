@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   
+    <HelloWorld />
     <ProductList></ProductList>   <!-- this is the productList in use-->
+    <h1>Hello people </h1>
   </div>
 </template>
 
@@ -14,7 +15,7 @@ export default {
   name: 'app',
   components: {
     HelloWorld,
-    ProductList    //after import you define your component here 
+    ProductList    //after import you define your component here  
   }
 }
 </script>
